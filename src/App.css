@@ -44,6 +44,25 @@ body{
     top: -50px;
     border-radius: 200px 200px 0px 0px;
 }
+.img2-container::after{
+    content: "";
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 20%;
+    border-radius: 1rem;
+}
+.img1-container img
+,.img2-container img{
+    filter: drop-shadow(10px 10px 20px var(--dark-color));
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+}
 
 @media (max-width: 768px) { 
     .img1-container{

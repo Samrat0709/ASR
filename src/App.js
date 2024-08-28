@@ -10,6 +10,7 @@ import "./App.css";
 import Home from "./page/Home"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavCom from "./components/NavCom";
+import Footer from "./components/Footer";
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           
         </Routes>
+        <Footer/>
       </Router>
       
     </div>
